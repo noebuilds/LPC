@@ -1,2 +1,3 @@
 # LPC
 The Life Prioritization Calculator (LPC) is an interactive web application designed to help users explore and optimize their time allocation for three core pillars of life: Mind, Body, and Soul.
+ With 168 hours available each week, LPC empowers users to input their time distribution across various activities like work, sleep, exercise, family time, side hustles, and more. The calculator intelligently groups inputs and ensures that the total time for all three pillars never exceeds 168 hours. Users can click the "Generate Chart" button to visualize their time allocation using an intuitive pie chart, empowering them to make informed decisions to achieve balance and prioritize their life goals.
