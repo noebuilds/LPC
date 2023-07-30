@@ -11,14 +11,13 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-cN3o1hE0CTvob8ihrVJ8tVmsn1yyTVNpQwWl5tE/NP0YX5PkSB+j+qF4H6nDYsl+2bs9TBk2vUm5IiFb5lTmg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-  <!-- header -->
-  <body>
+
+<body>
   <header>
     <h1>Life Prioritization Calculator</h1>
     <p>I believe in the power of three pillars:</p>
   </header>
 
-  <!-- body -->
   <section class="pillars">
     <div class="emoji">
       <p>1. The Mind &#129504;</p>
@@ -35,8 +34,9 @@
     <!-- LPC -->
     <div class="calculator">
       <div>
-        <h1>Discover</h1>
+        <h1>Begin</h1>
         <p>Use our interactive LPC to explore how you allocate your precious 168 hours each week.</p>
+        <p> Please note we have grouped each item below into one of the pillars above</p>
       </div>
       <ul>
         <li>
@@ -65,34 +65,35 @@
         </li>
       </ul>
     </div>
+  </section>
+
+  <section id="chart">
     <div class="graphic">
       <!-- Time Graphic -->
       <div class="time">
         <h1>Time Allocation Chart</h1>
       </div>
-      <h3 id="timeconsumed">Time Consumed</h3>
+
       <div class="time-manager">
         <!-- Remaining hours will be displayed here -->
       </div>
       <!-- Add a <div> to display remaining time -->
-<div id="remainingTime"></div>
-<!-- Add a <div> to display hours recorded per group -->
-  <div id="hoursPerGroup"></div>
+      <div id="remainingTime"></div>
+      <!-- Add a <div> to display hours recorded per group -->
+      <div id="hoursPerGroup"></div>
     </div>
     <!-- Add the canvas element for the pie chart -->
     <canvas id="time-chart" width="300" height="300"></canvas>
-  </div>
-    
-    </div>
   </section>
 
   <script type="text/javascript" src="js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-
   <footer>
     <span> Design by noebuilds.com </span>
   </footer>
 </body>
+
 </html>
+
 

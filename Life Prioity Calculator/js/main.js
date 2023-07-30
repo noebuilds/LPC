@@ -62,7 +62,7 @@ function updateRemainingTime() {
     datasets: [
       {
         data: [totalGroup1Hours, totalGroup2Hours, totalGroup3Hours],
-        backgroundColor: ['#ff6384', '#36a2eb', '#ffce56'],
+        backgroundColor: ['#F38CE6', '#36a2eb', '#ffce56'],
       },
     ],
   };
